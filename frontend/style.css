@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 400px;
+    margin: 100px auto;
+    text-align: center;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    margin-bottom: 10px;
+    color: #000;
+}
+
+p {
+    color: gray;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 90%;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+}
+
+.check-btn {
+    margin-top: 18px;
+    padding: 10px 24px;
+    border: none;
+    background: #4facfe;
+    color: white;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.check-btn:hover {
+    background: #007bff;
+}
+
+#resultBox {
+    margin-top: 20px;
+    min-height: 30px;
+}
+
+#resultText {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+#openBtn {
+    display: none;
+    margin: 15px auto 0;
+    padding: 10px 20px;
+    border: none;
+    background: green;
+    color: white;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#openBtn:hover {
+    background: darkgreen;
+}
